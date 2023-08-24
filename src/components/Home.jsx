@@ -56,7 +56,7 @@ function Home(){
             <div className=" w-screen h-[90vh] md:h-[100vh] absolute bg-qualitydark opacity-50 z-10"></div>
             <img 
                 className="w-screen h-[90vh] md:h-[100vh] lg:h-screen object-cover overflow-auto md:overflow-hidden drop-shadow-xl"
-                src="/assets/1.jpg" 
+                src="/assets/hospice.jpeg" 
                 alt="Hospice and Home Health"
             />
         </div>
