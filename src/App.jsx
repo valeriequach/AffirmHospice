@@ -127,7 +127,7 @@ function App() {
             <div className="text-white font-quality flex flex-col flex-grow justify-start items-start">
             <h1 className=" font-bold text-lg">E-mail Address</h1>
             <a href="mailto:info@empirehsi.com">
-            <h2 className="font-thin text-mb hover:cursor-pointer hover:text-empireblue">@qualitylifehospice.com</h2>
+            <h2 className="font-thin text-mb hover:cursor-pointer hover:text-empireblue">info@qualitylifehospice.com</h2>
             </a>
             </div>
         </div>

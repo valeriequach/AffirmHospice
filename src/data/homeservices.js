@@ -2,7 +2,7 @@ export default [
     {
         "title": "Nursing Services",
         "desc": "Our registered nurses directly address the care and comfort levels of patients and conduct interventions according to the plan of care. They perform a broad range of essential functions that make everything succeed. We make consistent assessments and work closely with the patient to provide additional care whenever needed 24 hours a day, 7 days a week.",
-        "imgUrl": "/assets/stethoscope.jpg",
+        "imgUrl": "/assets/hospice.jpeg",
         "cardkey": "nursing",
         "id":"1",
     },

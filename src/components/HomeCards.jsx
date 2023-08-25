@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+
 
 function HomeCard({ title, desc, imgUrl }) {
     return (

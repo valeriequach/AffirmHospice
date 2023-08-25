@@ -41,18 +41,4 @@ export default [
         "cardkey": "medicalsupplies",
         "id":"6",
     },
-    {
-        "title": "Inpatient Care",
-        "desc": "Inpatient hospice care is for patients who require frequent nursing interventions in managing their symptoms or continuous monitoring. Inpatient hospice care is sometimes what people need. Hospice can be provided where patients are interred typically in settings like an assisted-living home, nursing facilities, or a nursing home community. Doing so is called inpatient care. We offer inpatient care to patients whose symptoms usually require heightened medical supervision inside a facility.",
-        "imgUrl": "/assets/wheel-chair2.jpg",
-        "cardkey": "inpatientcare",
-        "id":"7",
-    },
-    {
-        "title": "Bereavement Support",
-        "desc": "Our teams work with family members and loved ones to help them with the grieving process. Have us bereave your family members and loved ones through our Bereavement Programs. Bereavement is the time of mourning following a loss. Our teams work with family members and loved ones to give them emotional support. This support may draw on trained volunteers or a counselor to visit the family. We give opportunities for family members to participate in grief support groups. Bereavement support groups are also available so long as desired.",
-        "imgUrl": "/assets/doctor.jpg",
-        "cardkey": "bereavement",
-        "id":"8",
-    },
 ]
