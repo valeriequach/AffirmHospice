@@ -9,7 +9,7 @@ export default [
     {
         "title": "Home Health Aides",
         "desc": "Our home health aides help our patients with their hygiene, feeding, light housekeeping, and similar personal care activities. Home health aides offer basic and continuous personal care duties like assistance with bathing, personal grooming, driving, shopping, light housekeeping, and other such chores as per care team assessment. We provide some aides to provide your primary caregivers a chance to rest and tend to other responsibilities as well.",
-        "imgUrl": "/assets/doctor.jpg",
+        "imgUrl": "/assets/homehealthaide.jpeg",
         "cardkey": "homehealthaides",
         "id":"2",
     },
