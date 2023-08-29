@@ -7,11 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        qualitydark: "#d3768d",
-        quality: "#bc9c21",
+        qualitydark: "#a433d1",
+        quality: "#fac759",
       },
       fontFamily: {
-        quality: ["Libre Baskerville", "sans-serif"]
+        quality: ["Noto Serif", "sans-serif"]
       },
       keyframes: {
         'slide': {

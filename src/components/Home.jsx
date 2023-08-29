@@ -31,21 +31,6 @@ function Home(){
         },
       };
 
-    const spanElements = [
-        { id: 1, text: 'monitored.' },
-        { id: 2, text: 'optimized.' },
-        { id: 3, text: 'anytime.' },
-        { id: 4, text: 'anywhere.' },
-      ];
-    const [currentSpan, setCurrentSpan] = useState(spanElements[0]);
-    useEffect(() => {
-        const interval = setInterval(() => {
-          const currentIndex = spanElements.findIndex((span) => span.id === currentSpan.id);
-          const nextIndex = (currentIndex + 1) % spanElements.length;
-          setCurrentSpan(spanElements[nextIndex]);
-        }, 2500); // 
-        return () => clearInterval(interval);
-        }, [currentSpan]);
 
     return(
         <>
@@ -56,7 +41,7 @@ function Home(){
             <div className=" w-screen h-[90vh] md:h-[100vh] absolute bg-qualitydark opacity-50 z-10"></div>
             <img 
                 className="w-screen h-[90vh] md:h-[100vh] lg:h-screen object-cover overflow-auto md:overflow-hidden drop-shadow-xl"
-                src="/assets/landing.png" 
+                src="/assets/affirm landing.jpeg" 
                 alt="Hospice and Home Health"
             />
         </div>
@@ -70,13 +55,13 @@ function Home(){
             variants={containerVariants}>
                 <div className="w-full h-1/4 md:w-1/2 md:h-full overflow-hidden rounded-t-md md:rounded-tr-none md:rounded-bl-md md:rounded-tl-md bg-gray-500">
                     <img 
-                        src="/assets/hands-scaled.jpg" 
+                        src="/assets/hands2.webp" 
                         alt="hands"
                         className="w-full h-full object-cover opacity-70" />
                 </div>
                 <div className="w-full h-3/4 md:w-2/3 md:h-full flex flex-col justify-start md:justify-center items-start p-6 gap-4 font-quality bg-pink-50">
-                    <h2 className="font-bold text-qualitydark text-3xl">Welcome to Quality Life Hospice</h2>
-                    <span>We are serving in the areas across Texas. Our services are provided by a team of trained and experienced professionals. We are available to offer assistance and support to the patient and their family 24 hours a day, 7 days a week.</span>
+                    <h2 className="font-bold text-qualitydark text-3xl">Welcome to Affirm Hospice</h2>
+                    <span>We are serving in the areas across California. Our services are provided by a team of trained and experienced professionals. We are available to offer assistance and support to the patient and their family 24 hours a day, 7 days a week.</span>
                     <button 
                     className="text-white bg-quality opacity-80 hover:bg-quality hover:opacity-100 rounded-md px-8 py-3" onClick={() => navigate('/About')}>
                     Learn More
@@ -116,9 +101,9 @@ function Home(){
           </h1>
           <span>Let us know about your questions or concerns. We will get back to you as soon as we can.</span>
           <span
-          className="font-bold text-lg pt-4">Quality Life Hospice</span>
-          <span>4555 Highway 6, Suite T8, Sugarland, TX 77478</span>
-          <span>Main Phone: +1 840-588-9548</span>
+          className="font-bold text-lg pt-4">Affirm Hospice</span>
+          <span>5050 Palo Verde Street, Suite 106, Montclair, CA, 91763</span>
+          <span>Main Phone: 909 475-0767</span>
         </div>
         </>
     )

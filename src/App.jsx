@@ -39,8 +39,8 @@ function App() {
                        bg-white ${opacity} transition duration-500`}>
         <div className=''>
           <img 
-            src="/assets/Quality Life.png" 
-            alt="Quality Life Hospice Logo"
+            src="/assets/Affirm.png" 
+            alt="Affirm Logo"
             className='w-36 z-10 pr-4' />
         </div>
         <div className='hidden md:block z-10'>
@@ -121,18 +121,18 @@ function App() {
             <div className="text-white font-quality flex flex-col flex-grow justify-start items-start">
             <h1 className=" font-bold text-lg">Phone Number</h1>
             <a href="tel:+12134402707">
-            <h2 className="font-thin text-md hover:cursor-pointer hover:text-empireblue">+1 840-588-9548</h2>
+            <h2 className="font-thin text-md hover:cursor-pointer hover:text-empireblue">909 475-0767</h2>
             </a>
             </div>
             <div className="text-white font-quality flex flex-col flex-grow justify-start items-start">
             <h1 className=" font-bold text-lg">E-mail Address</h1>
             <a href="mailto:info@empirehsi.com">
-            <h2 className="font-thin text-mb hover:cursor-pointer hover:text-empireblue">info@qualitylifehospice.com</h2>
+            <h2 className="font-thin text-mb hover:cursor-pointer hover:text-empireblue">info@affirmhospice.com</h2>
             </a>
             </div>
         </div>
        <div className='w-screen h-auto bg-black flex justify-center items-center text-white text-sm font-quality px-10 py-4'>
-        <span className='text-center'>Copyright © 2023 Quality Life Hospice. All Rights Reserved.</span>
+        <span className='text-center'>Copyright © 2023 Affirm Hospice. All Rights Reserved.</span>
        </div>
     </div>
   )
