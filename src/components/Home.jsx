@@ -104,6 +104,7 @@ function Home(){
           className="font-bold text-lg pt-4">Affirm Hospice</span>
           <span>5050 Palo Verde Street, Suite 106, Montclair, CA, 91763</span>
           <span>Main Phone: 909 475-0767</span>
+          <span>Fax: 909-236-5373</span>
         </div>
         </>
     )
